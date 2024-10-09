@@ -8,6 +8,7 @@ body {
 
 .principal {
     background: #CCCCCC;
+    padding: 30px;
 }
 
 h1 {
@@ -28,6 +29,7 @@ em strong {
 
 .beneficios {
     background: #FFFFFF;
+    padding: 20px;
 }
 
 h2 {
@@ -35,10 +37,18 @@ h2 {
 }
 
 ul {
-    display: flex;
-    flex-direction: column;
+    display: inline-grid;
+    vertical-align: top;
+    width: 20%;
+    margin-left: 15%;
 }
 
 .itens {
+    display: flex;
+    justify-content: flex-start;
     font-style: italic;
+}
+
+.imagem_beneficios {
+    width: 50%;
 }
