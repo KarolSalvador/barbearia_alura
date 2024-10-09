@@ -1,11 +1,13 @@
+body {
+    background: #cccccc;
+}
+
 h1 {
     text-align: center;
-    background: #cccccc;
 }
 
 p {
     text-align: center;
-    background: #cccccc;
 }
 
 .paragrafo_missao {
